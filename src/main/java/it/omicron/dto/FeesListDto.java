@@ -1,14 +1,14 @@
 package it.omicron.dto;
 
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Getter
+import java.util.List;
+
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-
-public class AccountDto {
-    private String accountCode;
-    private String bicCode;
+public class FeesListDto {
+    private List<FeesDto> fees;
 }

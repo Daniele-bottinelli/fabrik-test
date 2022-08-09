@@ -1,12 +1,10 @@
 package it.omicron.rest;
 
 import it.omicron.dto.TransactionDto;
-import lombok.Data;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Date;
 
 @FeignClient(name="${rest.service.transaction.name}",url="${rest.service.base.url}")
 public interface TransactionRest {

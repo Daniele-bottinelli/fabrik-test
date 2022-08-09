@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-
-public class AccountDto {
-    private String accountCode;
-    private String bicCode;
+public class MoneyTransferRequest {
+    private String status;
+    private MoneyTransferPayloadDto payload;
+    private ErrorDto errors;
 }

@@ -11,4 +11,6 @@ import lombok.NoArgsConstructor;
 public class CreditorDto {
     private String name;
     private AccountDto account;
+    private AddressDto address;
+
 }
