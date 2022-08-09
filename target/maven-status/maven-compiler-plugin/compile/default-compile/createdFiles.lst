@@ -1,0 +1,9 @@
+it\omicron\service\SaldoService.class
+it\omicron\controllers\ControllerSaldoImpl.class
+it\omicron\entities\Account.class
+it\omicron\FabrikTestApplication.class
+it\omicron\controllers\ControllerSaldo.class
+it\omicron\service\SaldoServiceImpl.class
+it\omicron\controllers\SaldoRest.class
+it\omicron\dto\AccountDto.class
+it\omicron\repository\SaldoRepository.class
